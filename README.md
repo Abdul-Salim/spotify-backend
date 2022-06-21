@@ -1,3 +1,1 @@
 # spotify-backend
-
-update readme
