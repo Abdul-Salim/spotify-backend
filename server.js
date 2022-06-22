@@ -244,7 +244,7 @@ app.get("/categories", async (req, res) => {
     });
 });
 
-app.get("/test", async(req,res) =>{
+app.post("/test", async(req,res) =>{
  res.json({success: true})
 })
 
