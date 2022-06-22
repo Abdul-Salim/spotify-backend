@@ -244,4 +244,8 @@ app.get("/categories", async (req, res) => {
     });
 });
 
+app.get("/test", async(req,res) =>{
+ res.json({success: true})
+})
+
 app.listen(process.env.PORT || 3000);
